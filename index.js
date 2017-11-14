@@ -21,8 +21,11 @@ function appendDriver(names){
   return drivers.concat('Broom')
 }
 
-function prependDriver(arnold){  
+function prependDriver(arnold){
   return [arnold, ...drivers];
 }
 
-
+function removeLastDriver('Garfield'){
+  return drivers2 = drivers.slice(1,2)
+}
+ 
